@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dceeff;
+    margin: 0;
+    padding: 0;
+}
+
+.test-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 35px;
+    font-size: 32px;
+}
+
+.question-card {
+    background-color: #f5fbff;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+}
+
+.question-card:hover {
+    transform: scale(1.01);
+}
+
+.question-card p {
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+label {
+    display: block;
+    margin: 6px 0;
+    padding-left: 5px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+    accent-color: #ff333d;
+    transform: scale(1.1);
+}
+
+button {
+    display: block;
+    width: 200px;
+    margin: 40px auto 0;
+    background: linear-gradient(to right, #33ff81, #b566ff);
+    color: white;
+    padding: 14px 0;
+    font-size: 17px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #007acc, #3399ff);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
